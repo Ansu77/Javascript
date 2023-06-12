@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script src="./demo.js"></script>
+    <style> 
+    div{
+        height: 200px;
+        width: 200px;
+
+    }
+    </style>
+</head>
+<body>
+    <h2 id="heading">Hello</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum culpa ab numquam nihil, hic soluta incidunt odit cupiditate dolor tenetur corrupti rerum natus! Accusantium porro nihil inventore voluptatibus? Maxime!</p>
+    <div id="division">div first</div>
+    <button onclick="change_me()">Click</button>
+
+
+
+    <script>
+        var details = {
+            name:"ram",
+            phone: "98383322",
+            address:"lalitpur",
+            status:"active"
+        }
+        var name = prompt("enter your name")
+        console.log("your name is", name)
+        //dom(document object model)
+        console.log("hello")
+        console.log("internal.js")
+        console.error("error section")
+        // console.clear()
+        console.table(details)
+        document.getElementById("heading").innerHTML = "java"
+        document.getElementById("division").style.height = "500px"
+        document.getElementById("division").style.backgroundColor = "red"
+        document.getElementById("division").style.width = "200px"
+        document.getElementById("division").style.fontSize = "50px"
+        function change_me(){
+            document.write("now i am clicked")
+        }
+
+
+
+    </script>
+    <script src="demo.js"></script>
+</body>
+</html>
